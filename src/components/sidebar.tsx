@@ -73,7 +73,7 @@ const Sidebar = () => {
       animate={{ width: SideBarSize ? 200 : 80 }}
       className={`${
         SideBarSize ? "w-56" : "w-14"
-      } h-screen bg-saroj transition-all duration-150 ease-out overflow-hidden`}
+      } h-screen bg-saroj transition-all duration-150 ease-out overflow-hidden border border-gray-700`}
     >
       <div className="w-4/5 mx-auto py-5">
         <div>
