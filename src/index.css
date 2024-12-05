@@ -11,4 +11,5 @@ body,
   font-family: "DM Sans", serif;
   background-color: #101826;
   color: white;
+  /* @apply bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900; */
 }

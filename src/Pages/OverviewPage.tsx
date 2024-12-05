@@ -2,6 +2,7 @@ import Sidebar from "../components/sidebar";
 import Statcard from "../components/Statcard";
 import Header from "../components/Header";
 import { Users, ShoppingBag, BarChart2, Zap } from "lucide-react";
+import SalesOverview from "./OverviewSubPage/SalesOverview";
 
 type Props = {};
 
@@ -39,6 +40,12 @@ const OverviewPage = (props: Props) => {
             color="#0CB982"
           />
         </main>
+        <div className="w-5/6 mx-auto grid grid-cols-1 md:grid-cols-2 ">
+          <div>
+            <SalesOverview />
+          </div>
+          <div></div>
+        </div>
       </div>
     </div>
   );
