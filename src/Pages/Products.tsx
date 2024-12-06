@@ -1,9 +1,17 @@
-import React from "react";
+import Sidebar from "../components/sidebar";
+import Producttable from "./productSubpage/Producttable";
 
-type Props = {};
-
-const Products = (props: Props) => {
-  return <div>Products</div>;
+const Products = () => {
+  return (
+    <div className="flex h-full">
+      <div>
+        <Sidebar />
+      </div>
+      <div>
+        <Producttable />
+      </div>
+    </div>
+  );
 };
 
 export default Products;

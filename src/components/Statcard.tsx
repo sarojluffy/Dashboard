@@ -9,7 +9,7 @@ const Statcard = ({ name, icon, value, color }: Props) => {
       whileHover={{ y: -5 }}
       className="py-5 pl-4 border border-gray-700 bg-saroj rounded-lg bg-opacity-50 backdrop-blur-md shadow-lg hover:shadow-2xl"
     >
-      <div className="">
+      <div className="w-full mx-auto">
         <div className="flex items-center flex-wrap">
           <div className="mr-2" style={{ color: color }}>
             {icon}
